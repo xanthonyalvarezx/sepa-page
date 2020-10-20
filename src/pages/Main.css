@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+height: 800px;
+    background-color: rgb(237, 171, 100);
+}
+
+#header{
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#hero{
+    width: 800px;
+    height: 400px;
+}
+
+#paragraphPhoto{
+    height: 400px;
+    float: right;
+}
+
+p{
+    
+   
+}
