@@ -33,7 +33,7 @@ class Nav extends Component {
             
 
                 </nav>
-                <hr/>
+                
 
 
 

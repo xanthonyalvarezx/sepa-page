@@ -18,16 +18,16 @@ class Videos extends Component {
                     </li>
                 </ul>
 
-                    <hr/>
+                  
 
-                <footer>
-                    <p>
+               
+                    <p id='disclamer'>
                         <b>
                             SOME VIDEOS ON THIS PAGE ARE NOT OWNED BY THIS PAGE. THIS PAGE DOES NOT GET ANY MONITARY GAINS FROM ANY VIDEOS HOSTED.
 
                         </b>
                     </p>
-                </footer>
+                
             </div>
 
         )

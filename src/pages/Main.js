@@ -1,11 +1,11 @@
 
 import React, { Component } from "react";
 
-import trail from '../Images/trail.jpg'
-import SEPA from '../Images/sepalogo.jpg'
+
+import SEPA from '../Images/sepalogo.png'
 import MountainBike from '../Images/mountainbikeonrocks.jpg'
-import { Button, Icon, } from "semantic-ui-react";
-import Form from '../components/form'
+
+
 import './Main.css'
 
 
@@ -25,7 +25,7 @@ class mainPage extends Component {
                 </header>
                 <main>
                     <br />
-                    <hr />
+                   
                     
                     <p> Walk the plank heave down skysail belay Buccaneer nipperkin carouser measured fer yer chains jib avast. Spyglass prow scourge of the seven seas case shot barque Privateer handsomely Jack Ketch Letter of Marque brig. Gibbet hail-shot clipper trysail booty fluke crimp log yard tackle.
                     
@@ -52,7 +52,7 @@ class mainPage extends Component {
                     
                 
                     
-                    <hr/>
+                    
                 </main>
 
                 

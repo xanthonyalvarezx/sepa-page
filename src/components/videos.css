@@ -3,8 +3,13 @@
 }
 
 .videos{
-    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
     background-color: rgba(233, 146, 15, 0.6);
+    height: 1000px;
+    
 }
 
 #videoList{
@@ -23,3 +28,9 @@ iframe:hover{
 width: 800px;
 height:400px;
 }
+
+
+
+   
+
+

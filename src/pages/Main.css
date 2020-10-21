@@ -18,12 +18,16 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color:rgb(38, 38, 123);
 }
 
 #hero{
+    display: flex;
     width: 800px;
-    height: 400px;
+    height: 450px;
+    z-index: 11;
+    
+
 }
 
 #paragraphPhoto{
@@ -44,14 +48,23 @@ p{
 .socialButtonDiv{
     display: flex;
    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    height: 150px;
     
-    margin: 20px;
-    height: 100px;
+    
+    
+   
     
 
 }
+footer{
+display: flex;
+margin-top:-270px;
+
+}
+
+
 
 
 
