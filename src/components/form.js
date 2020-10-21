@@ -1,8 +1,8 @@
 import React from "react";
-import { Button ,Input, Label } from "semantic-ui-react";
+import { Button, Input, Label } from "semantic-ui-react";
 import './FormPage.css'
 
- class Form extends React.Component {
+class Form extends React.Component {
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
@@ -17,23 +17,23 @@ import './FormPage.css'
       <div className='emailForm'>
         <p>Subscribe to our monthly newsletter and you'll recieve updates on new trails, new videos on our YouTube and Events happening locally. Don't miss out sign up now!</p>
 
-        
-        
-      <form
-        id='form'
-        onSubmit={this.submitForm}
-        action="https://formspree.io/f/myybwgyo"
-        method="POST"
-      >
-        
-        <Input type="email" name="email" />
-        <br/>
-        <Label pointing>Please enter your email</Label>
-        <br/>
-        <br/>
-        {status === "SUCCESS" ? <p>Thanks!</p> : <Button content='Submit' primary size='medium'/>}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
-      </form>
+
+
+        <form
+          id='form'
+          onSubmit={this.submitForm}
+          action="https://formspree.io/f/myybwgyo"
+          method="POST"
+        >
+
+          <Input type="email" name="email" />
+          <br />
+          <Label pointing>Please enter your email</Label>
+          <br />
+          <br />
+          {status === "SUCCESS" ? <p>Thanks!</p> : <Button content='Submit' primary size='medium' />}
+          {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        </form>
       </div>
     );
   }

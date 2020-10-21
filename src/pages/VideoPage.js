@@ -1,20 +1,20 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import Videos from '../components/Videos'
 
-class VideoPage extends Component{
+class VideoPage extends Component {
 
 
 
 
 
-render(){
-    return(
-        <>
-        <Videos/>
-        </>
-    )
+    render() {
+        return (
+            <>
+                <Videos />
+            </>
+        )
 
-}
+    }
 
 
 

@@ -1,11 +1,11 @@
 import React from "react";
 import Form from '../components/form'
 
-function FormPage(){
+function FormPage() {
 
 
-    return(
-        <Form/>
+    return (
+        <Form />
     )
 }
 

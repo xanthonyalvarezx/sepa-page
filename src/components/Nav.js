@@ -20,7 +20,7 @@ class Nav extends Component {
                         <Link to="/">
                             <li>Home</li>
                         </Link>
-                       
+
                         <Link to="/Videos">
                             <li>Videos</li>
                         </Link>
@@ -30,10 +30,10 @@ class Nav extends Component {
                         </Link>
 
                     </ul>
-            
+
 
                 </nav>
-                
+
 
 
 
