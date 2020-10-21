@@ -4,9 +4,12 @@
 
 main{
     display: flex;
-    flex-direction: column;
-height: 800px;
-    background-color: rgb(237, 171, 100);
+    
+    height: 800px;
+    background-color:  rgba(233, 146, 15, 0.6);
+    text-align: center;
+   
+
 }
 
 #header{
@@ -25,10 +28,30 @@ height: 800px;
 
 #paragraphPhoto{
     height: 400px;
-    float: right;
+    float: left;
+    margin: 5px;
+    border-radius: 50%;
+    
 }
 
+
 p{
+    text-align: center;
+    font-size: 18px;
     
-   
+
 }
+.socialButtonDiv{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 20px;
+    height: 100px;
+    
+
+}
+
+
+

@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+#navList{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+li{
+    color:  rgb(237, 171, 100);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+li:hover{
+    color: crimson;
+    font-size: 20px;
+    
+}

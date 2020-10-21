@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.emailForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: inset 1px black;
+    margin: 25px;
+    height: 500px;
+    background-color: rgba(233, 146, 15, 0.6);
+    
+}

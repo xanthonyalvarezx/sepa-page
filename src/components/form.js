@@ -1,6 +1,6 @@
 import React from "react";
 import { Button ,Input, Label } from "semantic-ui-react";
-
+import './FormPage.css'
 
  class Form extends React.Component {
   constructor(props) {
@@ -14,6 +14,11 @@ import { Button ,Input, Label } from "semantic-ui-react";
   render() {
     const { status } = this.state;
     return (
+      <div className='emailForm'>
+        <p>Subscribe to our monthly newsletter and you'll recieve updates on new trails, new videos on our YouTube and Events happening locally. Don't miss out sign up now!</p>
+
+        
+        
       <form
         id='form'
         onSubmit={this.submitForm}
@@ -29,6 +34,7 @@ import { Button ,Input, Label } from "semantic-ui-react";
         {status === "SUCCESS" ? <p>Thanks!</p> : <Button content='Submit' primary size='medium'/>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
+      </div>
     );
   }
 
