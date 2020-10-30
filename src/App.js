@@ -21,13 +21,13 @@ class App extends Component {
         <Router>
 
           <Nav />
-          <switch>
+          <Switch>
             <Route exact path='/' component={Main} />
 
             <Route path='/Videos' component={VideoPage} />
 
             <Route path='/Subscribe' component={FormPage} />
-          </switch>
+          </Switch>
 
         </Router>
         <footer>
