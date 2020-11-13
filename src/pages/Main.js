@@ -15,10 +15,12 @@ class mainPage extends Component {
         <main>
           <br />
 
+          <img id="paragraphPhoto" src={MountainBike} alt="Mountain bike on a rocky overlook in the woods" />
+
           <p>
-            {" "}
             SEPA Mountain Biking is your one stop shop for everything south-eastern Pennsylvania has to offer for your
             mountain biking journey. <br />
+            <img id="paragraphPhoto" src={MountainBike} alt="Mountain bike on a rocky overlook in the woods" />
             We show you the bast spots to ride. Articles on how to maintain your bike and we'll soon have a virtual swap
             meet built right in to the site.
             <br />
