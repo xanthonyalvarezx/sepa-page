@@ -7,7 +7,6 @@ class Videos extends Component {
       <div className="videos">
         <ul id="videoList">
           <li>
-            <span role="img">🔎</span>
             <iframe
               width="560"
               height="315"
@@ -20,7 +19,6 @@ class Videos extends Component {
           </li>
 
           <li>
-            <span role="img">🔎</span>
             <iframe
               width="560"
               height="315"
